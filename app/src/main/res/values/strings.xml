@@ -1,13 +1,68 @@
 <resources>
-    <string name="app_name">rock-coffe</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
-
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
+    <string name="nav_reservaciones">Reservaciones</string>
+    <string name="nav_reservar">Reservar zona temática</string>
+    <string name="nav_ver_reservaciones">Ver mis reservaciones</string>
+    <string name="nav_cancelar">Cancelar reservación</string>
+    <string name="nav_menu">Menú Rock</string>
+    <string name="nav_cafes">Cafés</string>
+    <string name="nav_postres">Postres</string>
+    <string name="nav_info">Información</string>
+    <string name="nav_horarios">Horarios</string>
+    <string name="nav_contacto">Contacto</string>
+    <string name="app_name">Rock &amp; Coffee</string>
+    <string name="nav_header_desc">Descripción del header</string>
+    <string name="nav_header_title">Rock &amp; Coffee</string>
+    <string name="nav_header_subtitle">Café &amp; Música</string>
+    <string name="action_settings">Configuración</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galería</string>
     <string name="menu_slideshow">Slideshow</string>
+    <!-- Títulos -->
+    <string name="menu_bebidas_titulo">Menú Bebidas</string>
+
+    <!-- Cafés Beatles -->
+    <string name="cafe_1_nombre">Yellow Submarine Latte</string>
+    <string name="cafe_1_desc">Latte con vainilla y caramelo, decorado con crema dorada</string>
+    <string name="cafe_1_precio">$75</string>
+
+    <string name="cafe_2_nombre">Hey Jude Cappuccino</string>
+    <string name="cafe_2_desc">Cappuccino clásico con canela y chocolate rallado</string>
+    <string name="cafe_2_precio">$65</string>
+
+    <string name="cafe_3_nombre">Strawberry Fields Mocha</string>
+    <string name="cafe_3_desc">Mocha con sirope de fresa y chips de chocolate</string>
+    <string name="cafe_3_precio">$85</string>
+
+    <string name="cafe_4_nombre">Penny Lane Americano</string>
+    <string name="cafe_4_desc">Café americano doble con notas de avellana</string>
+    <string name="cafe_4_precio">$55</string>
+
+    <string name="cafe_5_nombre">Let It Bean Espresso</string>
+    <string name="cafe_5_desc">Espresso intenso con doble shot y espuma cremosa</string>
+    <string name="cafe_5_precio">$45</string>
+
+    <string name="cafe_6_nombre">Here Comes The Frapp</string>
+    <string name="cafe_6_desc">Frappuccino de café con crema batida y caramelo</string>
+    <string name="cafe_6_precio">$89</string>
+
+    <!-- Cafés Elvis -->
+    <string name="cafe_7_nombre">Blue Hawaii Cold Brew</string>
+    <string name="cafe_7_desc">Cold brew con leche de coco y sirope de vainilla azul</string>
+    <string name="cafe_7_precio">$79</string>
+
+    <string name="cafe_8_nombre">Jailhouse Roast</string>
+    <string name="cafe_8_desc">Café negro fuerte con toques de chocolate amargo</string>
+    <string name="cafe_8_precio">$59</string>
+
+    <!-- Cafés Rolling Stones -->
+    <string name="cafe_9_nombre">Angie\'s Affogato</string>
+    <string name="cafe_9_desc">Helado de vainilla bañado en espresso caliente</string>
+    <string name="cafe_9_precio">$95</string>
+
+    <string name="cafe_10_nombre">Ruby Chai Latte</string>
+    <string name="cafe_10_desc">Chai latte especiado con un toque de frambuesa</string>
+    <string name="cafe_10_precio">$69</string>
+
+    <!-- Botón -->
+    <string name="btn_agregar">Agregar</string>
 </resources>

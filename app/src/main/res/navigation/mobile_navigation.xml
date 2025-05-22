@@ -22,4 +22,10 @@
         android:name="com.example.rock_coffe.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_cafes"
+        android:name="com.example.rock_coffe.ui.MenuBebidasFragment"
+        android:label="Menú Bebidas"
+        tools:layout="@layout/fragment_menu_bebidas" />
 </navigation>

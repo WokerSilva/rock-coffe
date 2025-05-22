@@ -1,22 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment">
+    android:fillViewport="true">
 
-    <TextView
-        android:id="@+id/text_home"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <!-- Contenido Principal -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="24dp">
+
+            <!-- Título principal -->
+            <TextView
+                android:id="@+id/tvTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rock &amp; Coffee"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="#222222"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Subtítulo -->
+            <TextView
+                android:id="@+id/tvSubtitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Café &amp; Postres"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#7B1FA2"
+                android:fontFamily="sans-serif"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Párrafo de concepto temático -->
+            <TextView
+                android:id="@+id/tvConcepto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bienvenido a Rock &amp; Coffee, la cafetería donde la pasión por el café se fusiona con la mejor música de todos los tiempos. Disfruta de un ambiente inspirado en leyendas como The Beatles, Elvis Presley, The Rolling Stones y Michael Jackson. Cada rincón y cada bebida están pensados para transportarte a la época dorada del rock y el pop, mientras saboreas nuestros cafés y postres temáticos. ¡Déjate llevar por el ritmo y vive una experiencia única!"
+                android:textSize="16sp"
+                android:textColor="#444444"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="32dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <!-- Footer con redes sociales -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="#F5F5F5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Síguenos en redes sociales"
+                android:textSize="14sp"
+                android:textColor="#666666"
+                android:layout_marginBottom="8dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/btnFacebook"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_facebook"
+                    android:contentDescription="Facebook"
+                    android:layout_marginEnd="16dp"/>
+
+                <ImageButton
+                    android:id="@+id/btnInstagram"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_instagram"
+                    android:contentDescription="Instagram"
+                    android:layout_marginEnd="16dp"/>
+
+                <ImageButton
+                    android:id="@+id/btnTwitter"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_twitter"
+                    android:contentDescription="Twitter"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

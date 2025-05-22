@@ -5,16 +5,48 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_reservaciones"
+            android:icon="@drawable/ic_calendar"
+            android:title="Reservaciones">
+            <menu>
+                <item
+                    android:id="@+id/nav_reservar"
+                    android:title="Reservar zona temática" />
+                <item
+                    android:id="@+id/nav_ver_reservaciones"
+                    android:title="Ver mis reservaciones" />
+                <item
+                    android:id="@+id/nav_cancelar"
+                    android:title="Cancelar reservación" />
+            </menu>
+        </item>
+
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_menu_coffee"
+            android:title="Menú Rock">
+            <menu>
+                <item
+                    android:id="@+id/nav_cafes"
+                    android:title="Cafés" />
+                <item
+                    android:id="@+id/nav_postres"
+                    android:title="Postres" />
+            </menu>
+        </item>
+
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="Información">
+            <menu>
+                <item
+                    android:id="@+id/nav_horarios"
+                    android:title="Horarios" />
+                <item
+                    android:id="@+id/nav_contacto"
+                    android:title="Contacto" />
+            </menu>
+        </item>
     </group>
 </menu>
